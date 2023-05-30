@@ -1,0 +1,217 @@
+/* Estilos generales para todo el sitio */
+body {
+    display: grid;
+    font-family: arial, verdana, helvetica, sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+
+p {
+  display: flex;
+}
+
+  /* Estilos para el carrusel */
+  .carrusel-cont {
+    width: 100%;
+    overflow: hidden;
+  }
+  .carrusel {
+    display: flex;
+    transition: transform 0.4s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+  }
+  
+  .carrusel img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  /* Estilos para la barra de navegación */
+  nav {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  .banner {
+    color: #333;
+    text-decoration: none;
+  }
+  
+
+  
+  /* Estilos para la sección de productos destacados */
+  .features {
+    display: flex;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .features h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .features ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .features li {
+    flex-basis: 30%;
+  }
+  
+  .features img {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .features h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .features p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .features button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .features button:hover {
+    background-color: #666;
+  }
+
+  /* Estilos para la sección de boxes " Nos acercamos a Vos" servicios que ofrecemos */
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin: 0 ;
+    padding: 100px;
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  
+  .box {
+    
+    width: 370px;
+    height: 370px;
+    background-color: lightblue;
+    margin: 10px;
+    text-align: center;
+    
+  }
+  
+  .box p {
+    margin: 0;
+    padding: 10px;
+  }
+    contact-us-map
+  .margin
+    contact-us-map-container
+    contact-us-map-content
+
+  .contact-us-map-text {
+    color: #333;
+    display: flex;
+    text-align: right;
+    text-decoration: none;
+  }
+  .contact-us-map-img
+  {
+    display:grid;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px;
+  }
+
+
+  .contact-us-form-data > tbody > tr > td > input[type="submit"] {
+    height: 50px;
+    width: 130px;
+    color: #f2f2f2;
+    font-size: 20px;
+    overflow: hidden;
+    border: none;
+    line-height: 18px;
+    text-align: center;
+    vertical-align: middle;
+    background: #262525
+  }
+
+  .ver-mas-tenemos {
+    height: 100px;
+    width: 180px;
+    color: #f2f2f2;
+    font-size: 20px;
+    border: 25px solid #262525;
+    border-radius: 40px;
+    text-align: center;
+    vertical-align: bottom;
+    background: #262525
+  }
+
+  .prefooter{
+    margin: 0;
+    padding: 10px;
+  }
+  
+
+  /* Estilos para el pie de página */
+
+  footer{
+    background-color:#262525;
+    padding: 10px;
+    width: "100%";
+    height: "80%";
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 15px;
+    color: #615f5f;
+    background-color:#262525;
+  }
